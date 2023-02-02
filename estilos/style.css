@@ -43,8 +43,15 @@ section#login {
 }
 
 section#login > div#imagem {
+    display: block;
     background: #5f2c82 url(../imagens/pexels-johannes-plenio-1103970.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     background-position: left bottom;
+}
+
+section#login > div#form {
+    display: block;
+    padding: 10px;
+    
 }
